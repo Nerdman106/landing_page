@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -18,12 +21,10 @@
     <div class="hero">
         <div class="heroText">
             <p class="heroTitle">This website is awesome</p>
-            <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
+            <p class="heroSummary">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
             <input type="button" value="Sign up">
         </div>
-        <div class="heroImage">
-            <img src="images/heropicture.jpg">
-        </div>
+        <img class="heroImage" src="images/heropicture.jpg">
     </div>
 
     <div class="randomInformation">
@@ -49,19 +50,20 @@
     </div>
 
     <div class="quoteField">
-        <p class="quote">Nothing is impossible.The word itself says "I'm possible!"</p>
-        <p class="writer">Audrey Hepburn</p>
+        <p class="quote">Nothing is impossible. The word itself says "I'm possible!"</p>
+        <p class="writer">-Audrey Hepburn</p>
     </div>
-
     <div class="cta">
-        <div class="ctaText">
-            <p>Call to action! It's Time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="ctaBox">
+            <div class="ctaText">
+                <h3>Call to action! It's Time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <input class="ctaButton" type="button" value="Sign up">
         </div>
-        <input class="ctaButton" type="button" value="Sign up">
     </div>
     <div class="footer">
-        <p>Copyright C the Odin Project 2021</p>
+        <p>Copyright &#169 the Odin Project 2021</p>
     </div>
 </body>
 </html>
